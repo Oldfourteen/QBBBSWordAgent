@@ -1,0 +1,19 @@
+{
+  "node_id": "REPORT_LEVEL_2_NUMBERING_V2",
+  "status": "active",
+  "priority": "critical",
+  "rules": [
+    {
+      "id": "H2_DECIMAL_NUMBERING_REQUIRED",
+      "severity": "block",
+      "requirement": "目录和正文中的二级标题必须使用 1.1、1.2、2.1 等分级编号。"
+    },
+    {
+      "id": "H2_TOC_BODY_TEXT_MATCH",
+      "severity": "block",
+      "requirement": "目录与正文中的二级标题编号及标题正文必须逐项一致。"
+    }
+  ],
+  "negative_sample": "错误样本_二级标题缺少数字编号.docx",
+  "failure_report": "failure_report.md"
+}

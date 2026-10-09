@@ -1,0 +1,39 @@
+{
+  "node_id": "REPORT_TOC_DOTTED_NUMBERING_AND_SEALED_MAPPING_V4",
+  "status": "active",
+  "severity": "critical",
+  "source_sample": "错误样本_目录一级缺少点且页码未校准.docx",
+  "rules": [
+    {
+      "id": "TOC_H1_DOTTED_ARABIC",
+      "requirement": "目录一级标题必须使用带英文句点的阿拉伯数字编号，例如 1.、2.、3.；数字与标题之间保留一个空格。",
+      "reject_when": "目录一级标题使用 1、2、3 而没有句点，或使用中文序号。"
+    },
+    {
+      "id": "BODY_H1_REMAINS_CHINESE",
+      "requirement": "正文一级标题继续使用一、二、三等中文序号，不受目录编号变化影响。"
+    },
+    {
+      "id": "TOC_ENTRY_BOOKMARK_PAGE_TRIPLE_BINDING",
+      "requirement": "每个目录标题文字、PAGEREF 书签和正文标题必须形成唯一三元绑定；目录缓存页码必须等于该书签所在正文节的底部页码。",
+      "reject_when": "漏项、重复书签、标题文字不一致、全部页码保留为初始值 1，或任一目录页码与正文页脚不一致。"
+    },
+    {
+      "id": "PENDING_NEVER_PUBLISHED",
+      "requirement": "所有 .pending.docx 只能存在于 tmp/staging，output 中禁止出现或交付未发布草稿。"
+    },
+    {
+      "id": "SEALED_FINAL_ONLY",
+      "requirement": "只有经过 Word 刷新、保存缓存、结构校验并生成匹配 SHA-256 的 verification_receipt.json 后，才能创建日期归档目录并发布最终 DOCX。"
+    }
+  ],
+  "enforcement_layers": [
+    "config/report_policy.json",
+    "agents/system_prompt.md",
+    "src/report_builder.py",
+    "scripts/refresh_word_fields.ps1",
+    "scripts/verify_document.py",
+    "scripts/run_agent.py",
+    "README.md"
+  ]
+}

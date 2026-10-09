@@ -1,0 +1,46 @@
+{
+  "sample_id": "20260906_05_toc_level1_numbering_and_page_mismatch",
+  "sample_type": "rejected",
+  "usage": "negative_constraint_only",
+  "recorded_date": "2026-09-07",
+  "source_path": "output/20260906_05/HTML学习期末实践周报告_25页.docx",
+  "artifact": "错误样本_目录一级编号与页码映射错误.docx",
+  "sha256": "D032E067BE13652F0BD42C040ACD5A6BDE045CE3ACB07CCA7B7EBC0F2E05A01F",
+  "privacy_check": {
+    "banned_identity_terms_found": [],
+    "complete_student_id_found": false,
+    "phone_found": false,
+    "email_found": false
+  },
+  "observed": {
+    "physical_pages": 34,
+    "toc_pages": 2,
+    "body_footer_pages": 29,
+    "level_1_heading_count": 8,
+    "level_2_heading_count": 24,
+    "toc_level_1_entries_using_chinese_numbers": 8,
+    "toc_level_1_entries_using_required_arabic_numbers": 0,
+    "pageref_count": 32,
+    "pageref_cached_as_1": 32,
+    "pageref_footer_mismatches": 30
+  },
+  "violations": [
+    {
+      "code": "TOC_LEVEL_1_MUST_USE_ARABIC_NUMBERING",
+      "expected": "目录一级条目使用 1、2、3 等阿拉伯数字，正文一级标题继续使用一、二、三等中文数字",
+      "actual": "8 个目录一级条目均沿用了正文的中文数字"
+    },
+    {
+      "code": "STALE_PAGEREF_RESULTS",
+      "expected": "32 个目录页码应与正文底部从 1 开始的页码逐项一致并保存到 DOCX",
+      "actual": "32 个 PAGEREF 缓存全部为 1；Word 只读复核发现其中 30 项与正文页脚不一致"
+    },
+    {
+      "code": "UNSEALED_FINAL_DOCUMENT",
+      "expected": "最终 DOCX 必须经过 Word 刷新、保存后缓存复核和哈希凭据封存",
+      "actual": "文件没有 verification_receipt.json，旧结构校验器仍错误返回通过"
+    }
+  ],
+  "evidence": "observed_page_map.json",
+  "constraint_node": "constraint_node.json"
+}

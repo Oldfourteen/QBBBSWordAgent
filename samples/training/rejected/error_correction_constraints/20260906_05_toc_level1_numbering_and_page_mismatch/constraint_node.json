@@ -1,0 +1,50 @@
+{
+  "node_id": "REPORT_TOC_NUMBERING_AND_PAGE_BINDING_V3",
+  "status": "active",
+  "priority": "critical",
+  "scope": [
+    "report_builder",
+    "word_field_refresh",
+    "saved_docx_validation",
+    "final_publication"
+  ],
+  "supersedes": [
+    "一级标题在目录和正文中使用相同中文编号",
+    "只检查 PAGEREF 字段和书签是否存在即可放行",
+    "只在 Word 内存中比对页码而不检查保存后的缓存"
+  ],
+  "rules": [
+    {
+      "id": "TOC_H1_ARABIC_BODY_H1_CHINESE",
+      "severity": "block",
+      "requirement": "同一一级标题在目录中显示为阿拉伯数字序号 1、2、3，在正文中显示为中文序号一、二、三；两处去掉序号后的标题正文必须一致。"
+    },
+    {
+      "id": "H2_DECIMAL_IN_TOC_AND_BODY",
+      "severity": "block",
+      "requirement": "二级标题在目录和正文中均显示为 1.1、1.2、2.1 等分级编号，编号与标题正文必须逐项一致。"
+    },
+    {
+      "id": "TOC_PAGE_EQUALS_BODY_FOOTER_PAGE",
+      "severity": "block",
+      "requirement": "每个目录 PAGEREF 的数字必须等于对应正文书签所在页面底部显示的页码；比较使用正文节从 1 开始的调整后页码，不使用物理页码。"
+    },
+    {
+      "id": "SAVED_FIELD_CACHE_MUST_MATCH",
+      "severity": "block",
+      "requirement": "Word 完成刷新并保存后，必须重新从 DOCX XML 读取 PAGEREF 缓存，与 Word 生成的逐项页码映射再次比较。"
+    },
+    {
+      "id": "FINAL_FILE_REQUIRES_HASH_RECEIPT",
+      "severity": "block",
+      "requirement": "最终 DOCX 必须附带 verification_receipt.json；凭据记录逐标题页码映射和文件 SHA-256。缺少凭据或哈希不一致时不得视为成功输出。"
+    },
+    {
+      "id": "BUILDER_OUTPUT_IS_PENDING_ONLY",
+      "severity": "block",
+      "requirement": "直接调用 ReportBuilder 只能生成 .pending.docx；只有 scripts/run_agent.py 完成所有校验后才能发布最终 .docx。"
+    }
+  ],
+  "negative_sample": "错误样本_目录一级编号与页码映射错误.docx",
+  "evidence": "observed_page_map.json"
+}

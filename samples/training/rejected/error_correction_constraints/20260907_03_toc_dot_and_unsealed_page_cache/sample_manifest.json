@@ -1,0 +1,23 @@
+{
+  "sample_type": "rejected_error_correction",
+  "source": "output/20260907_03/Java微服务知识期末大作业报告.pending.docx",
+  "stored_copy": "错误样本_目录一级缺少点且页码未校准.docx",
+  "source_sha256": "30BCC6E407B648DB349DBCBE130A3A4C3EA1238DA56C430DCE9B67A23AF2A2F6",
+  "stored_copy_sha256": "30BCC6E407B648DB349DBCBE130A3A4C3EA1238DA56C430DCE9B67A23AF2A2F6",
+  "copied_unchanged": true,
+  "observations": {
+    "level_1_headings": 8,
+    "level_2_headings": 11,
+    "toc_entries": 19,
+    "cached_pageref_results": 19,
+    "cached_pageref_unique_values": [1],
+    "filename_is_pending": true,
+    "verification_receipt_present": false
+  },
+  "violations": [
+    "TOC_LEVEL_1_REQUIRES_TRAILING_DOT",
+    "PENDING_DRAFT_MUST_NOT_APPEAR_IN_OUTPUT",
+    "FINAL_DOCUMENT_REQUIRES_VERIFICATION_RECEIPT",
+    "PAGEREF_CACHE_MUST_MATCH_BODY_FOOTER"
+  ]
+}

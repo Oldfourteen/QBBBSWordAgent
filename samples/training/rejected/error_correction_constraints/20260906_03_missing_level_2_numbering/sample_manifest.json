@@ -1,0 +1,44 @@
+{
+  "sample_id": "20260906_03_missing_level_2_numbering",
+  "sample_type": "rejected",
+  "usage": "negative_constraint_only",
+  "recorded_date": "2026-09-06",
+  "source_path": "output/20260906_03/Vue学习期末实践周报告_正文25页以上.docx",
+  "artifact": "错误样本_二级标题缺少数字编号.docx",
+  "sha256": "193AE524379F91562F27B51CDA39CC8C73A989248EAE63328430074517BD22F8",
+  "privacy_check": {
+    "banned_identity_terms_found": [],
+    "complete_student_id_found": false
+  },
+  "observed": {
+    "level_1_heading_count": 8,
+    "level_2_heading_count": 24,
+    "level_1_headings_with_required_chinese_prefix": 8,
+    "level_2_headings_with_required_decimal_prefix": 0,
+    "toc_level_2_entries_with_required_decimal_prefix": 0,
+    "pageref_count": 32
+  },
+  "violations": [
+    {
+      "code": "MISSING_LEVEL_2_NUMBERING",
+      "expected": "正文二级标题按所属一级标题生成 1.1、1.2、2.1 等分级编号",
+      "actual": "24 个二级标题均只有标题文字，没有分级编号"
+    },
+    {
+      "code": "TOC_LEVEL_2_NUMBERING_MISMATCH",
+      "expected": "目录二级条目与正文二级标题使用完全相同的分级编号和标题文字",
+      "actual": "24 个目录二级条目均缺少分级编号"
+    },
+    {
+      "code": "VALIDATOR_FALSE_NEGATIVE",
+      "expected": "结构校验器应拒绝缺少二级标题编号的 DOCX",
+      "actual": "旧校验器只检查 Heading 2 样式、书签和 PAGEREF，因此曾错误放行"
+    }
+  ],
+  "correction_constraints": [
+    "内容 JSON 中的二级标题只提供标题正文，不手工编号",
+    "排版器同时为正文和目录生成 section_index.subsection_index 格式的编号",
+    "校验器同时检查正文标题编号、目录条目编号和目录正文文字一致性",
+    "任何二级标题缺号、跳号、重号或目录正文编号不一致时停止生成"
+  ]
+}
