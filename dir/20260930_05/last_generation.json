@@ -1,0 +1,11 @@
+{
+    "output":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_05\\reviews\\draft\\HTML5前端开发学习期末报告.docx",
+    "status":  "generated",
+    "elapsed_seconds":  9.9620673,
+    "body_pages":  12,
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T09:51:08.9370375-04:00"
+                 }
+}

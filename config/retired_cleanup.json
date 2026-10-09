@@ -1,0 +1,21 @@
+{
+  "files": [
+    "tmp/_analyze.py",
+    "tmp/_calibrate.py",
+    "tmp/_inspect_template.py",
+    "tmp/_measure_frag.py",
+    "tmp/_per_section.py",
+    "tmp/_validate_report.py",
+    "tmp/add_final_reflection_page.py",
+    "tmp/add_report_page_allocation.py",
+    "tmp/expand_report_to_target.py",
+    "tmp/qa-20260930_02-inspect.py",
+    "tmp/qa-20260930_02-toc.py",
+    "qa/_inspect.py",
+    "qa/_measure_html_pages.py",
+    "qa/assemble_report.py",
+    "qa/build_final.py",
+    "qa/generate_html_report.py",
+    "qa/generate_vue_report.py"
+  ]
+}

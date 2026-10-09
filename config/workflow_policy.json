@@ -1,0 +1,73 @@
+{
+  "workflow_version": "4-gate-v2-intake",
+  "workflow_document": "workflow/WORKFLOW.md",
+  "entrypoint": "agent.ps1",
+  "workspace_root": "dir",
+  "outline_filename": "outline.md",
+  "state_filename": "workflow_state.json",
+  "code_block_modes": [
+    "none",
+    "embedded",
+    "after_body"
+  ],
+  "stages": [
+    {
+      "id": "T1",
+      "name": "大纲设计与需求确认",
+      "gates": [
+        "gate1",
+        "gate2"
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "正文生成、格式自检与样本对照",
+      "gates": [
+        "gate3"
+      ]
+    },
+    {
+      "id": "T3",
+      "name": "最终收尾检测与发布",
+      "gates": [
+        "gate4"
+      ]
+    }
+  ],
+  "protected_paths": [
+    "PORTABLE.md",
+    "setup.ps1",
+    "scripts/cleanup_owned_word.ps1",
+    "AGENTS.md",
+    "agent.ps1",
+    "workflow/WORKFLOW.md",
+    "workflow/COMMANDS.md",
+    "templates/outline.md",
+    "agents/system_prompt.md",
+    "config/report_policy.json",
+    "config/workflow_policy.json",
+    "samples/content/report.schema.json",
+    "scripts/refresh_word_fields.ps1",
+    "src/native/Core.ps1",
+    "src/native/Document.ps1",
+    "src/native/Runtime.ps1",
+    "src/native/Main.ps1",
+    "src/native/Maintenance.ps1",
+    "src/native/Environment.ps1",
+    "src/native/Intake.ps1",
+    "src/native/Input.ps1",
+    "templates/OUTLINE_RULES.md"
+  ],
+  "compatible_workflow_hashes": [
+    "F576A4F3345EDB956C3226BA916E9327D9F4115995F448704BE03B361D44891E",
+    "93F55AD12202438B06001E365512F5D6E8C6BACABE345FCF2C05F8C8709D2C75",
+    "00A6800B7CB42ABDCFB7B32C04FF3555BD6FBEC20619418BFF4CFC4B3E6E0D44",
+    "32C10FC90BEBEC0A5685C2FBAD0BE49FC87D264DD3C124451C23D7294845FDE1",
+    "2D2B16934F5D05D5617FEB2369DB3065FA5CC849025BFD8D3B4A972B078FECDF"
+  ],
+  "compatibility_note": "New tasks require term before outline and title after gate1 before code. Legacy tasks remain readable; missing intake must be collected by explicit rollback to T1, never guessed.",
+  "agent_name": "QBWordAgent",
+  "compatible_outline_contract_hashes": [
+    "FFC0373932AC29C1C8AFDC3CF8BA03C7A1F18C40DC60DAC78DF9DF6BBAE8FD64"
+  ]
+}

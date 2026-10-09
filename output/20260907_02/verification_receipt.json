@@ -1,0 +1,43 @@
+{
+  "status": "verified",
+  "verification_schema": "toc-footer-page-map-v3",
+  "verified_at": "2026-09-07T14:03:47+08:00",
+  "document": "目录编号与页码强约束回归示例.docx",
+  "sha256": "9BF40CB87E0FFA68208FE77C9E34DB1191942055DFEB8C75E31455B20B60E791",
+  "toc_level_1_numbering": "1 2 3",
+  "body_level_1_numbering": "一、二、三、",
+  "level_2_numbering": "1.1 1.2 2.1",
+  "page_references": 5,
+  "pages": 6,
+  "body_pages": 2,
+  "toc_start_physical_page": 4,
+  "toc_end_physical_page": 4,
+  "body_start_physical_page": 5,
+  "page_map": [
+    {
+      "bookmark": "_ReportH11",
+      "toc_page": 1,
+      "body_footer_page": 1
+    },
+    {
+      "bookmark": "_ReportH21_1",
+      "toc_page": 1,
+      "body_footer_page": 1
+    },
+    {
+      "bookmark": "_ReportH12",
+      "toc_page": 1,
+      "body_footer_page": 1
+    },
+    {
+      "bookmark": "_ReportH22_2",
+      "toc_page": 1,
+      "body_footer_page": 1
+    },
+    {
+      "bookmark": "_ReportH13",
+      "toc_page": 1,
+      "body_footer_page": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "length_policy": "不设置固定字数；由闸门1确认的正文目标页数控制篇幅",
+  "banned_identity_terms": ["青岛滨海学院", "信息工程学院", "本人就读", "我的学校", "本校"],
+  "required_sections": ["score_sheet", "cover", "writing_requirements", "toc", "body"],
+  "appendix_policy": "默认不生成；仅在用户明确要求时通过 include_appendix=true 启用",
+  "heading_numbering": {
+    "body_level_1": "中文序号：一、二、三……",
+    "toc_level_1": "带点的阿拉伯数字序号：1.、2.、3.……",
+    "level_2": "目录和正文均使用阿拉伯数字分级序号：1.1、1.2、2.1……"
+  },
+  "page_plan": {
+    "score_sheet": 1,
+    "cover": 2,
+    "writing_requirements": 3,
+    "toc_starts_at": 4,
+    "toc_pages": "根据目录内容自动占用 1 页或多页",
+    "body_starts_at": "目录结束后的下一物理页",
+    "body_footer_starts_at": 1
+  },
+  "fonts": {
+    "chinese": "宋体",
+    "english": "Times New Roman",
+    "heading_1": {"chinese_font": "黑体", "size_pt": 16, "bold": true},
+    "heading_2": {"chinese_font": "黑体", "size_pt": 15, "bold": true},
+    "body": {"chinese_font": "宋体", "size_pt": 12, "bold": false},
+    "toc_title": {"chinese_font": "黑体", "size_pt": 16, "bold": true},
+    "toc_level_1": {"chinese_font": "宋体", "size_pt": 12, "bold": true},
+    "toc_level_2": {"chinese_font": "宋体", "size_pt": 10.5, "bold": false}
+  },
+  "paragraph": {
+    "line_spacing": 1.5,
+    "space_before_pt": 0,
+    "space_after_pt": 0,
+    "body_first_line_chars": 2
+  },
+  "limits": {
+    "max_level_1_sections": 8,
+    "max_level_2_sections": 12,
+    "max_images": 3,
+    "min_body_pages": 1,
+    "max_body_pages": 100,
+    "max_code_blocks": 20
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "at": "2026-09-30T07:53:11.871331-04:00",
+  "elapsed_seconds": 150.529,
+  "timings": {
+    "reuse_check": 0.0,
+    "build_docx": 0.05,
+    "word_refresh": 150.425
+  },
+  "error": "Word失败，最后阶段=creating_word。C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\scripts\\refresh_word_fields.ps1 : Cannot convert null to type \"System.IntPtr\".\n    + CategoryInfo          : InvalidArgument: (:) [refresh_word_fields.ps1], RuntimeException\n    + FullyQualifiedErrorId : nullToObjectInvalidCast,refresh_word_fields.ps1\n进程回收：No proven owned Word process; no process terminated.\n诊断目录：C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930\\word-diagnostics"
+}

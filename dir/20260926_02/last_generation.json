@@ -1,0 +1,10 @@
+{
+  "status": "waiting_desktop_word",
+  "at": "2026-09-27T00:30:11.352565+08:00",
+  "elapsed_seconds": 0.149,
+  "timings": {
+    "reuse_check": 0.0,
+    "build_docx": 0.074
+  },
+  "job": "94d845882fbf4aa89b0264843211b918"
+}

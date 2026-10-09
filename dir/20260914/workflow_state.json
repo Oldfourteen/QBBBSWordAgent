@@ -1,0 +1,77 @@
+{
+  "workflow_version": "4-gate-v1",
+  "workflow_id": "20260914",
+  "topic": "软件测试课程期末大报告",
+  "status": "COMPLETE",
+  "created_at": "2026-09-14T17:09:51+08:00",
+  "updated_at": "2026-09-18T19:27:10+08:00",
+  "target_body_pages": 25,
+  "code_block_mode": "embedded",
+  "outline": {
+    "path": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260914\\outline.md",
+    "sha256": "31AB88E11ED58F162786ECB6C602EF99D07AB1FEBAA70A6492091738928A2E55"
+  },
+  "review": {
+    "document": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260914\\reviews\\draft\\软件测试课程期末大报告.docx",
+    "receipt": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260914\\reviews\\draft\\verification_receipt.json",
+    "sha256": "291394B8A03992A74DCABC6BCE6EDC69A4EE2E89A6FBC884892521D2066872E8",
+    "body_characters": 18861
+  },
+  "final": {
+    "document": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\output\\20260918\\软件测试课程期末大报告.docx",
+    "receipt": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\output\\20260918\\verification_receipt.json",
+    "sha256": "291394B8A03992A74DCABC6BCE6EDC69A4EE2E89A6FBC884892521D2066872E8"
+  },
+  "gates": {
+    "gate1": {
+      "status": "approved",
+      "approved_at": "2026-09-14T17:11:52.970637"
+    },
+    "gate2": {
+      "status": "approved",
+      "approved_at": "2026-09-14T17:13:04.371312"
+    },
+    "gate3": {
+      "status": "approved",
+      "approved_at": "2026-09-18T19:25:31.823244"
+    },
+    "gate4": {
+      "status": "approved",
+      "approved_at": "2026-09-18T19:27:10.732173"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-09-14T17:09:51+08:00",
+      "event": "workflow_created"
+    },
+    {
+      "at": "2026-09-14T17:10:56+08:00",
+      "event": "outline_saved_and_self_checked"
+    },
+    {
+      "at": "2026-09-14T17:11:52+08:00",
+      "event": "gate1_approved_with_page_target"
+    },
+    {
+      "at": "2026-09-14T17:13:04+08:00",
+      "event": "gate2_approved_with_code_mode"
+    },
+    {
+      "at": "2026-09-18T19:19:19+08:00",
+      "event": "t2_review_generated_and_self_checked"
+    },
+    {
+      "at": "2026-09-18T19:25:31+08:00",
+      "event": "gate3_approved"
+    },
+    {
+      "at": "2026-09-18T19:25:38+08:00",
+      "event": "t3_final_check_passed"
+    },
+    {
+      "at": "2026-09-18T19:27:10+08:00",
+      "event": "gate4_approved_and_final_published"
+    }
+  ]
+}

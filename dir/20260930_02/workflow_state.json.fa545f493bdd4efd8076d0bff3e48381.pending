@@ -1,0 +1,46 @@
+{
+    "workflow_version":  "4-gate-v1",
+    "updated_at":  "2026-09-30T08:35:23.3888872-04:00",
+    "gates":  {
+                  "gate1":  {
+                                "at":  "2026-09-30T08:35:23.3839724-04:00",
+                                "status":  "approved"
+                            },
+                  "gate3":  {
+                                "status":  "closed"
+                            },
+                  "gate4":  {
+                                "status":  "closed"
+                            },
+                  "gate2":  {
+                                "status":  "waiting_user"
+                            }
+              },
+    "created_at":  "2026-09-30T08:32:11.6490307-04:00",
+    "workflow_sha256":  "00A6800B7CB42ABDCFB7B32C04FF3555BD6FBEC20619418BFF4CFC4B3E6E0D44",
+    "review":  null,
+    "final":  null,
+    "history":  [
+                    {
+                        "at":  "2026-09-30T08:32:11.6550926-04:00",
+                        "event":  "workflow_created"
+                    },
+                    {
+                        "at":  "2026-09-30T08:34:18.4564343-04:00",
+                        "event":  "save-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T08:35:23.3888872-04:00",
+                        "event":  "approve-outline "
+                    }
+                ],
+    "outline":  {
+                    "sha256":  "954EF00A653B59439E9AC338707366880C426F84B8807C244A05EB2C96B0E6BE",
+                    "path":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_02\\outline.md"
+                },
+    "status":  "GATE2_WAITING_CHOICE",
+    "topic":  "Go语言程序设计学习期末报告",
+    "workflow_id":  "20260930_02",
+    "target_body_pages":  12,
+    "code_block_mode":  null
+}

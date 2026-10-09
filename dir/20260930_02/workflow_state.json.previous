@@ -1,0 +1,79 @@
+{
+    "workflow_version":  "4-gate-v1",
+    "updated_at":  "2026-09-30T08:44:16.9445577-04:00",
+    "gates":  {
+                  "gate1":  {
+                                "at":  "2026-09-30T08:35:28.6710473-04:00",
+                                "status":  "approved"
+                            },
+                  "gate3":  {
+                                "status":  "approved"
+                            },
+                  "gate4":  {
+                                "status":  "waiting_user"
+                            },
+                  "gate2":  {
+                                "at":  "2026-09-30T08:36:31.0902012-04:00",
+                                "status":  "approved"
+                            }
+              },
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T08:39:49.6420657-04:00"
+                 },
+    "created_at":  "2026-09-30T08:32:11.6490307-04:00",
+    "workflow_sha256":  "00A6800B7CB42ABDCFB7B32C04FF3555BD6FBEC20619418BFF4CFC4B3E6E0D44",
+    "review":  {
+                   "document":  "dir\\20260930_02\\reviews\\draft\\Go语言程序设计学习期末报告.docx",
+                   "receipt_sha256":  "C69EC57EE683D34EE322F981A962E6434934BAB6F068CE86682A7A714C91A7D0",
+                   "native":  true,
+                   "key":  "EB74BE6E213272666705FADFFEB83F78C942C7561531874FE4A1C461F03A29C7",
+                   "sha256":  "71493DB2A01FC0E5C1D9DAE67BC30B471DA6F884B10B36C175FD47BB4E3A4307",
+                   "receipt":  "dir\\20260930_02\\reviews\\draft\\verification_receipt.json"
+               },
+    "final":  null,
+    "history":  [
+                    {
+                        "at":  "2026-09-30T08:32:11.6550926-04:00",
+                        "event":  "workflow_created"
+                    },
+                    {
+                        "at":  "2026-09-30T08:34:18.4564343-04:00",
+                        "event":  "save-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T08:35:28.6760572-04:00",
+                        "event":  "approve-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T08:36:31.0958385-04:00",
+                        "event":  "choose-code "
+                    },
+                    {
+                        "at":  "2026-09-30T08:39:49.6464418-04:00",
+                        "event":  "renderer_capability_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T08:39:56.5329516-04:00",
+                        "event":  "native_t2_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T08:43:36.6719661-04:00",
+                        "event":  "review-decision "
+                    },
+                    {
+                        "at":  "2026-09-30T08:44:16.9445577-04:00",
+                        "event":  "final-check "
+                    }
+                ],
+    "outline":  {
+                    "sha256":  "954EF00A653B59439E9AC338707366880C426F84B8807C244A05EB2C96B0E6BE",
+                    "path":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_02\\outline.md"
+                },
+    "status":  "GATE4_WAITING_APPROVAL",
+    "topic":  "Go语言程序设计学习期末报告",
+    "workflow_id":  "20260930_02",
+    "target_body_pages":  12,
+    "code_block_mode":  "none"
+}

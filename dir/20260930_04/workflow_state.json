@@ -1,0 +1,86 @@
+{
+    "workflow_version":  "4-gate-v1",
+    "updated_at":  "2026-09-30T09:38:02.1521120-04:00",
+    "gates":  {
+                  "gate1":  {
+                                "at":  "2026-09-30T09:25:44.2124086-04:00",
+                                "status":  "approved"
+                            },
+                  "gate3":  {
+                                "status":  "approved"
+                            },
+                  "gate4":  {
+                                "status":  "approved"
+                            },
+                  "gate2":  {
+                                "at":  "2026-09-30T09:26:01.4106045-04:00",
+                                "status":  "approved"
+                            }
+              },
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T09:34:04.0554182-04:00"
+                 },
+    "created_at":  "2026-09-30T09:24:03.3352799-04:00",
+    "workflow_sha256":  "32C10FC90BEBEC0A5685C2FBAD0BE49FC87D264DD3C124451C23D7294845FDE1",
+    "review":  {
+                   "document":  "dir\\20260930_04\\reviews\\draft\\Django期末大作业报告.docx",
+                   "receipt_sha256":  "2C1605DDF9D3A15F8A52CF03CEB2ABE59E838DA3DF625C52027662C2EF82F903",
+                   "native":  true,
+                   "key":  "86C690311EDCE337607557B4C76584E0947AD417F6D29EA5217E8273A4873380",
+                   "sha256":  "EB888F07D6F51098CB7AFA04073614D62BC534CDE876C37F6F39E75E1F192C65",
+                   "receipt":  "dir\\20260930_04\\reviews\\draft\\verification_receipt.json"
+               },
+    "final":  {
+                  "document":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\output\\20260930_04\\Django期末大作业报告.docx",
+                  "sha256":  "EB888F07D6F51098CB7AFA04073614D62BC534CDE876C37F6F39E75E1F192C65"
+              },
+    "history":  [
+                    {
+                        "at":  "2026-09-30T09:24:03.3372891-04:00",
+                        "event":  "workflow_created"
+                    },
+                    {
+                        "at":  "2026-09-30T09:24:50.3720966-04:00",
+                        "event":  "save-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T09:25:44.2174106-04:00",
+                        "event":  "approve-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T09:26:01.4145213-04:00",
+                        "event":  "choose-code "
+                    },
+                    {
+                        "at":  "2026-09-30T09:34:04.0574198-04:00",
+                        "event":  "renderer_capability_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T09:36:57.0627607-04:00",
+                        "event":  "native_t2_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T09:37:23.9913592-04:00",
+                        "event":  "review-decision "
+                    },
+                    {
+                        "at":  "2026-09-30T09:37:29.3710908-04:00",
+                        "event":  "final-check "
+                    },
+                    {
+                        "at":  "2026-09-30T09:38:02.1521120-04:00",
+                        "event":  "finish "
+                    }
+                ],
+    "outline":  {
+                    "sha256":  "53F1DA9845835A1E166F1ABBBE4B5232B42560E10D1633FF68F8484F9B0E4397",
+                    "path":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_04\\outline.md"
+                },
+    "status":  "COMPLETE",
+    "topic":  "基于 Django 框架的 Web 应用开发",
+    "workflow_id":  "20260930_04",
+    "target_body_pages":  15,
+    "code_block_mode":  "none"
+}

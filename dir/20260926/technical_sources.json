@@ -1,0 +1,14 @@
+{
+  "purpose": "Technical verification notes, not a report bibliography",
+  "sources": [
+    "https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/HashMap.html",
+    "https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html",
+    "https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html"
+  ],
+  "checks": [
+    "HashMap iteration order is not guaranteed",
+    "Atomic move support depends on the file system",
+    "Resource closure does not provide business rollback"
+  ],
+  "body_tests": "Planned cases; no application execution results claimed"
+}

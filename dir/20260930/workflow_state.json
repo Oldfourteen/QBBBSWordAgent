@@ -1,0 +1,51 @@
+{
+  "workflow_version": "4-gate-v1",
+  "workflow_sha256": "00A6800B7CB42ABDCFB7B32C04FF3555BD6FBEC20619418BFF4CFC4B3E6E0D44",
+  "workflow_id": "20260930",
+  "topic": "Python程序设计期末大作业报告",
+  "status": "T2_READY",
+  "created_at": "2026-09-30T07:45:28-04:00",
+  "updated_at": "2026-09-30T07:46:35-04:00",
+  "target_body_pages": 12,
+  "code_block_mode": "none",
+  "outline": {
+    "path": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930\\outline.md",
+    "sha256": "BF1FEAB6D89FBF0C15413A69B449AD7F5731A32BA138090AF763C1D91F97F415"
+  },
+  "review": null,
+  "final": null,
+  "gates": {
+    "gate1": {
+      "status": "approved",
+      "approved_at": "2026-09-30T07:46:14.848761"
+    },
+    "gate2": {
+      "status": "approved",
+      "approved_at": "2026-09-30T07:46:35.463544"
+    },
+    "gate3": {
+      "status": "closed"
+    },
+    "gate4": {
+      "status": "closed"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-09-30T07:45:28-04:00",
+      "event": "workflow_created"
+    },
+    {
+      "at": "2026-09-30T07:45:54-04:00",
+      "event": "outline_saved_and_self_checked"
+    },
+    {
+      "at": "2026-09-30T07:46:14-04:00",
+      "event": "gate1_approved_with_page_target"
+    },
+    {
+      "at": "2026-09-30T07:46:35-04:00",
+      "event": "gate2_approved_with_code_mode"
+    }
+  ]
+}

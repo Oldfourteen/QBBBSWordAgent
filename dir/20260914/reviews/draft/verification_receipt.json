@@ -1,0 +1,120 @@
+{
+  "status": "verified",
+  "verification_schema": "toc-footer-page-map-v3",
+  "verified_at": "2026-09-18T19:19:19+08:00",
+  "document": "软件测试课程期末大报告.docx",
+  "sha256": "291394B8A03992A74DCABC6BCE6EDC69A4EE2E89A6FBC884892521D2066872E8",
+  "publication_status": "t2_review",
+  "workflow_id": "20260914",
+  "target_body_pages": 25,
+  "code_block_mode": "embedded",
+  "quality_sources": {
+    "school_template": {
+      "path": "samples\\school_templates\\成绩单、封面和撰写要求样本1.docx",
+      "sha256": "08D6BF1E49D80A86C14BE7610C51DBB0229CC275EA71813A4A3E602F1EDCF558"
+    },
+    "rejected_constraint_nodes": [
+      {
+        "id": "REPORT_LEVEL_2_NUMBERING_V2",
+        "path": "samples\\training\\rejected\\error_correction_constraints\\20260906_03_missing_level_2_numbering\\constraint_node.json",
+        "sha256": "533196DC9CFD80172554F64A30B2DE9D1FBA59D92C572D418AFC59A06B4B469A"
+      },
+      {
+        "id": "REPORT_TOC_NUMBERING_AND_PAGE_BINDING_V3",
+        "path": "samples\\training\\rejected\\error_correction_constraints\\20260906_05_toc_level1_numbering_and_page_mismatch\\constraint_node.json",
+        "sha256": "7269F54504424D69D6748785D82BD300E48059867E924EEB2DA1586D69AA9AA5"
+      },
+      {
+        "id": "REPORT_TOC_DOTTED_NUMBERING_AND_SEALED_MAPPING_V4",
+        "path": "samples\\training\\rejected\\error_correction_constraints\\20260907_03_toc_dot_and_unsealed_page_cache\\constraint_node.json",
+        "sha256": "9421AC0E0EF818CC90AD4C86183335C55E287B32C500AEF63855DD63DB7B8A99"
+      }
+    ]
+  },
+  "toc_level_1_numbering": "1. 2. 3.",
+  "body_level_1_numbering": "一、二、三、",
+  "level_2_numbering": "1.1 1.2 2.1",
+  "page_references": 15,
+  "pages": 29,
+  "body_pages": 25,
+  "toc_start_physical_page": 4,
+  "toc_end_physical_page": 4,
+  "body_start_physical_page": 5,
+  "page_map": [
+    {
+      "bookmark": "_ReportH11",
+      "toc_page": 1,
+      "body_footer_page": 1
+    },
+    {
+      "bookmark": "_ReportH21_1",
+      "toc_page": 2,
+      "body_footer_page": 2
+    },
+    {
+      "bookmark": "_ReportH21_2",
+      "toc_page": 4,
+      "body_footer_page": 4
+    },
+    {
+      "bookmark": "_ReportH12",
+      "toc_page": 6,
+      "body_footer_page": 6
+    },
+    {
+      "bookmark": "_ReportH22_3",
+      "toc_page": 7,
+      "body_footer_page": 7
+    },
+    {
+      "bookmark": "_ReportH22_4",
+      "toc_page": 8,
+      "body_footer_page": 8
+    },
+    {
+      "bookmark": "_ReportH13",
+      "toc_page": 10,
+      "body_footer_page": 10
+    },
+    {
+      "bookmark": "_ReportH23_5",
+      "toc_page": 11,
+      "body_footer_page": 11
+    },
+    {
+      "bookmark": "_ReportH23_6",
+      "toc_page": 13,
+      "body_footer_page": 13
+    },
+    {
+      "bookmark": "_ReportH14",
+      "toc_page": 15,
+      "body_footer_page": 15
+    },
+    {
+      "bookmark": "_ReportH24_7",
+      "toc_page": 16,
+      "body_footer_page": 16
+    },
+    {
+      "bookmark": "_ReportH24_8",
+      "toc_page": 18,
+      "body_footer_page": 18
+    },
+    {
+      "bookmark": "_ReportH15",
+      "toc_page": 20,
+      "body_footer_page": 20
+    },
+    {
+      "bookmark": "_ReportH25_9",
+      "toc_page": 21,
+      "body_footer_page": 21
+    },
+    {
+      "bookmark": "_ReportH25_10",
+      "toc_page": 23,
+      "body_footer_page": 23
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "output":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_03\\reviews\\draft\\报告.docx",
+    "status":  "generated",
+    "elapsed_seconds":  22.603140999999997,
+    "body_pages":  15,
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T09:11:26.2788608-04:00"
+                 }
+}

@@ -1,0 +1,11 @@
+{
+    "output":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_02\\reviews\\draft\\Go语言程序设计学习期末报告.docx",
+    "status":  "generated",
+    "elapsed_seconds":  13.8900095,
+    "body_pages":  12,
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T08:39:49.6420657-04:00"
+                 }
+}

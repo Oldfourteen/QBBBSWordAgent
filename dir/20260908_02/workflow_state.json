@@ -1,0 +1,50 @@
+{
+  "workflow_version": "4-gate-v1",
+  "workflow_id": "20260908_02",
+  "topic": "C语言学习与实践总结",
+  "status": "T2_READY",
+  "created_at": "2026-09-08T10:50:32+08:00",
+  "updated_at": "2026-09-08T11:25:14+08:00",
+  "target_body_pages": 17,
+  "code_block_mode": "none",
+  "outline": {
+    "path": "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260908_02\\outline.md",
+    "sha256": "B6D51A905983C8E9703375F7488086BAAECF2D2065020C1A1193A9177C4455DD"
+  },
+  "review": null,
+  "final": null,
+  "gates": {
+    "gate1": {
+      "status": "approved",
+      "approved_at": "2026-09-08T11:24:55.570023"
+    },
+    "gate2": {
+      "status": "approved",
+      "approved_at": "2026-09-08T11:25:14.898624"
+    },
+    "gate3": {
+      "status": "closed"
+    },
+    "gate4": {
+      "status": "closed"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-09-08T10:50:32+08:00",
+      "event": "workflow_created"
+    },
+    {
+      "at": "2026-09-08T11:24:13+08:00",
+      "event": "outline_saved_and_self_checked"
+    },
+    {
+      "at": "2026-09-08T11:24:55+08:00",
+      "event": "gate1_approved_with_page_target"
+    },
+    {
+      "at": "2026-09-08T11:25:14+08:00",
+      "event": "gate2_approved_with_code_mode"
+    }
+  ]
+}

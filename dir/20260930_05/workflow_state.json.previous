@@ -1,0 +1,79 @@
+{
+    "workflow_version":  "4-gate-v1",
+    "target_body_pages":  12,
+    "updated_at":  "2026-09-30T09:53:38.9929829-04:00",
+    "gates":  {
+                  "gate1":  {
+                                "at":  "2026-09-30T09:48:12.3620823-04:00",
+                                "status":  "approved"
+                            },
+                  "gate3":  {
+                                "status":  "approved"
+                            },
+                  "gate4":  {
+                                "status":  "waiting_user"
+                            },
+                  "gate2":  {
+                                "at":  "2026-09-30T09:48:31.1225539-04:00",
+                                "status":  "approved"
+                            }
+              },
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T09:51:08.9370375-04:00"
+                 },
+    "created_at":  "2026-09-30T09:46:04.3896730-04:00",
+    "workflow_sha256":  "32C10FC90BEBEC0A5685C2FBAD0BE49FC87D264DD3C124451C23D7294845FDE1",
+    "review":  {
+                   "document":  "dir\\20260930_05\\reviews\\draft\\HTML5前端开发学习期末报告.docx",
+                   "receipt_sha256":  "2EA0AFD572F63DBDA537BBD605B36CD0DF6A2CF489513B7A77DC763886239AA0",
+                   "native":  true,
+                   "key":  "6329932B55AAD50241896D365E08343D7C5E69C87510ED9D070CFF404AA16D7D",
+                   "sha256":  "D9930E515C480096B2E3C71B438C53F33F0B21658E8E1B8B774375827B52F929",
+                   "receipt":  "dir\\20260930_05\\reviews\\draft\\verification_receipt.json"
+               },
+    "final":  null,
+    "history":  [
+                    {
+                        "at":  "2026-09-30T09:46:04.3926731-04:00",
+                        "event":  "workflow_created"
+                    },
+                    {
+                        "at":  "2026-09-30T09:47:23.3617143-04:00",
+                        "event":  "save-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T09:48:12.3670822-04:00",
+                        "event":  "approve-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T09:48:31.1289355-04:00",
+                        "event":  "choose-code "
+                    },
+                    {
+                        "at":  "2026-09-30T09:51:08.9380468-04:00",
+                        "event":  "renderer_capability_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T09:52:37.6560280-04:00",
+                        "event":  "native_t2_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T09:53:38.3866867-04:00",
+                        "event":  "review-decision "
+                    },
+                    {
+                        "at":  "2026-09-30T09:53:38.9929829-04:00",
+                        "event":  "final-check "
+                    }
+                ],
+    "outline":  {
+                    "sha256":  "BF300C54C94BE934C1A1932D233B0F40B2A6D369358647188FE0849B6DEFD125",
+                    "path":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_05\\outline.md"
+                },
+    "status":  "GATE4_WAITING_APPROVAL",
+    "topic":  "HTML5期末大作业报告",
+    "workflow_id":  "20260930_05",
+    "code_block_mode":  "none"
+}

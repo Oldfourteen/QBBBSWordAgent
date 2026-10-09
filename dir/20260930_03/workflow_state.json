@@ -1,0 +1,86 @@
+{
+    "workflow_version":  "4-gate-v1",
+    "updated_at":  "2026-09-30T09:16:01.2035359-04:00",
+    "gates":  {
+                  "gate1":  {
+                                "at":  "2026-09-30T09:09:34.1364827-04:00",
+                                "status":  "approved"
+                            },
+                  "gate3":  {
+                                "status":  "approved"
+                            },
+                  "gate4":  {
+                                "status":  "approved"
+                            },
+                  "gate2":  {
+                                "at":  "2026-09-30T09:09:57.2967766-04:00",
+                                "status":  "approved"
+                            }
+              },
+    "renderer":  {
+                     "prog_id":  "Word.Application",
+                     "engine":  "word",
+                     "verified_at":  "2026-09-30T09:11:26.2788608-04:00"
+                 },
+    "created_at":  "2026-09-30T09:08:49.4545162-04:00",
+    "workflow_sha256":  "32C10FC90BEBEC0A5685C2FBAD0BE49FC87D264DD3C124451C23D7294845FDE1",
+    "review":  {
+                   "document":  "dir\\20260930_03\\reviews\\draft\\报告.docx",
+                   "receipt_sha256":  "5C65B9F2AFF0E9BF3FC793A0D44F4241298D6CE68D9327035ADB8F21D1582D3C",
+                   "native":  true,
+                   "key":  "43711BBD47B69E1089C9F8FED55389DDFFACC52FE63F5DE758B4557DED0A87E9",
+                   "sha256":  "1AD12F16001157A74E271D5F6207D85381AE00E8EB70EF5FAABECA08CD736B23",
+                   "receipt":  "dir\\20260930_03\\reviews\\draft\\verification_receipt.json"
+               },
+    "final":  {
+                  "document":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\output\\20260930_03\\报告.docx",
+                  "sha256":  "1AD12F16001157A74E271D5F6207D85381AE00E8EB70EF5FAABECA08CD736B23"
+              },
+    "history":  [
+                    {
+                        "at":  "2026-09-30T09:08:49.4570712-04:00",
+                        "event":  "workflow_created"
+                    },
+                    {
+                        "at":  "2026-09-30T09:09:08.1528672-04:00",
+                        "event":  "save-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T09:09:34.1416067-04:00",
+                        "event":  "approve-outline "
+                    },
+                    {
+                        "at":  "2026-09-30T09:09:57.3039899-04:00",
+                        "event":  "choose-code "
+                    },
+                    {
+                        "at":  "2026-09-30T09:11:26.2803768-04:00",
+                        "event":  "renderer_capability_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T09:14:37.8339451-04:00",
+                        "event":  "native_t2_verified"
+                    },
+                    {
+                        "at":  "2026-09-30T09:15:37.5549691-04:00",
+                        "event":  "review-decision "
+                    },
+                    {
+                        "at":  "2026-09-30T09:15:42.0229280-04:00",
+                        "event":  "final-check "
+                    },
+                    {
+                        "at":  "2026-09-30T09:16:01.2035359-04:00",
+                        "event":  "finish "
+                    }
+                ],
+    "outline":  {
+                    "sha256":  "68A22F72E29139811F80B8518BF587746BDAC86D3CEA382055D8696221ECE66E",
+                    "path":  "C:\\Users\\14101\\Desktop\\期末大作业报告生成器\\dir\\20260930_03\\outline.md"
+                },
+    "status":  "COMPLETE",
+    "topic":  "SpringMVC期末大作业报告",
+    "workflow_id":  "20260930_03",
+    "target_body_pages":  15,
+    "code_block_mode":  "none"
+}
