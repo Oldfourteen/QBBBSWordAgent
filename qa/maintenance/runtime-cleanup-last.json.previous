@@ -1,0 +1,10 @@
+{
+    "at":  "2026-09-30T09:55:12.5155548-04:00",
+    "scope":  "Only traced, owned Office processes; unknown/user processes are never terminated.",
+    "removed_pids":  [
+
+                     ],
+    "checked":  15,
+    "phase":  "before_complete",
+    "status":  "owned_processes_clear"
+}

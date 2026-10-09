@@ -1,0 +1,577 @@
+{
+  "at": "2026-09-26T15:21:51.543661+08:00",
+  "deleted": [
+    {
+      "path": "qa/20260926_java/Java期末大作业报告.pdf",
+      "bytes": 511676,
+      "mtime_ns": 1790406187561941900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-01.png",
+      "bytes": 134166,
+      "mtime_ns": 1790406204105720600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-02.png",
+      "bytes": 66220,
+      "mtime_ns": 1790406204175869800,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-03.png",
+      "bytes": 108704,
+      "mtime_ns": 1790406204263348600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-04.png",
+      "bytes": 92998,
+      "mtime_ns": 1790406204341599100,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-05.png",
+      "bytes": 353949,
+      "mtime_ns": 1790406204521212900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-06.png",
+      "bytes": 337505,
+      "mtime_ns": 1790406204692122600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-07.png",
+      "bytes": 336134,
+      "mtime_ns": 1790406204865663400,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-08.png",
+      "bytes": 342422,
+      "mtime_ns": 1790406205042845800,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-09.png",
+      "bytes": 350362,
+      "mtime_ns": 1790406205224948600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-10.png",
+      "bytes": 331099,
+      "mtime_ns": 1790406204165806500,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-11.png",
+      "bytes": 359240,
+      "mtime_ns": 1790406204339593000,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-12.png",
+      "bytes": 326143,
+      "mtime_ns": 1790406204511629300,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-13.png",
+      "bytes": 339649,
+      "mtime_ns": 1790406204682822700,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-14.png",
+      "bytes": 342564,
+      "mtime_ns": 1790406204851654900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-15.png",
+      "bytes": 355268,
+      "mtime_ns": 1790406205030008500,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-16.png",
+      "bytes": 341915,
+      "mtime_ns": 1790406205208914800,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/20260926_java/page-17.png",
+      "bytes": 174613,
+      "mtime_ns": 1790406205309361700,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "qa/__pycache__/generate_html_report.cpython-314.pyc",
+      "bytes": 21777,
+      "mtime_ns": 1788698028216324600,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "scripts/__pycache__/run_agent.cpython-314.pyc",
+      "bytes": 19573,
+      "mtime_ns": 1789377436045983000,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "src/__pycache__/content_validator.cpython-312.pyc",
+      "bytes": 9836,
+      "mtime_ns": 1788781427228319700,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "src/__pycache__/content_validator.cpython-314.pyc",
+      "bytes": 11444,
+      "mtime_ns": 1788782773736415900,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "src/__pycache__/report_builder.cpython-312.pyc",
+      "bytes": 27945,
+      "mtime_ns": 1788781468884890900,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "src/__pycache__/report_builder.cpython-314.pyc",
+      "bytes": 32554,
+      "mtime_ns": 1788784945346818300,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "src/__pycache__/workflow_manager.cpython-312.pyc",
+      "bytes": 11884,
+      "mtime_ns": 1788781578091237400,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "src/__pycache__/workflow_manager.cpython-314.pyc",
+      "bytes": 14164,
+      "mtime_ns": 1788782513356011600,
+      "reason": "Python可再生成字节码"
+    },
+    {
+      "path": "tmp/office_restore/officedeploymenttool.exe",
+      "bytes": 3522096,
+      "mtime_ns": 1789703599794142200,
+      "reason": "历史Office修复安装包（可重新下载）"
+    },
+    {
+      "path": "tmp/office_restore/setup.exe",
+      "bytes": 7194464,
+      "mtime_ns": 1787209948000000000,
+      "reason": "历史Office修复安装包（可重新下载）"
+    },
+    {
+      "path": "tmp/qa_report/contact-1.png",
+      "bytes": 876792,
+      "mtime_ns": 1789730491989756200,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/contact-2.png",
+      "bytes": 1267813,
+      "mtime_ns": 1789730492268006100,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/contact-3.png",
+      "bytes": 1234427,
+      "mtime_ns": 1789730492565545200,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/contact-4.png",
+      "bytes": 747516,
+      "mtime_ns": 1789730492744920000,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-01.png",
+      "bytes": 185123,
+      "mtime_ns": 1789730474233771200,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-02.png",
+      "bytes": 95408,
+      "mtime_ns": 1789730474337889900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-03.png",
+      "bytes": 148949,
+      "mtime_ns": 1789730474477705400,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-04.png",
+      "bytes": 114473,
+      "mtime_ns": 1789730474605585300,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-05.png",
+      "bytes": 496425,
+      "mtime_ns": 1789730474911758300,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-06.png",
+      "bytes": 490341,
+      "mtime_ns": 1789730475193407200,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-07.png",
+      "bytes": 517570,
+      "mtime_ns": 1789730475492992600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-08.png",
+      "bytes": 490071,
+      "mtime_ns": 1789730475776067400,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-09.png",
+      "bytes": 501512,
+      "mtime_ns": 1789730476049240500,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-10.png",
+      "bytes": 483959,
+      "mtime_ns": 1789730476321300800,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-11.png",
+      "bytes": 489809,
+      "mtime_ns": 1789730476608591800,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-12.png",
+      "bytes": 503786,
+      "mtime_ns": 1789730476881563300,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-13.png",
+      "bytes": 502301,
+      "mtime_ns": 1789730477173148800,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-14.png",
+      "bytes": 511154,
+      "mtime_ns": 1789730477446052700,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-15.png",
+      "bytes": 494038,
+      "mtime_ns": 1789730477715787600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-16.png",
+      "bytes": 492741,
+      "mtime_ns": 1789730477966610600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-17.png",
+      "bytes": 412080,
+      "mtime_ns": 1789730478206102900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-18.png",
+      "bytes": 507743,
+      "mtime_ns": 1789730478496663500,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-19.png",
+      "bytes": 511779,
+      "mtime_ns": 1789730478807879100,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-20.png",
+      "bytes": 487584,
+      "mtime_ns": 1789730479056104900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-21.png",
+      "bytes": 489548,
+      "mtime_ns": 1789730479308266200,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-22.png",
+      "bytes": 486552,
+      "mtime_ns": 1789730479580783000,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-23.png",
+      "bytes": 514399,
+      "mtime_ns": 1789730479843515900,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-24.png",
+      "bytes": 453142,
+      "mtime_ns": 1789730480117255200,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-25.png",
+      "bytes": 487846,
+      "mtime_ns": 1789730480385431100,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-26.png",
+      "bytes": 515939,
+      "mtime_ns": 1789730480702747400,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-27.png",
+      "bytes": 439368,
+      "mtime_ns": 1789730480947460300,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-28.png",
+      "bytes": 513889,
+      "mtime_ns": 1789730481218080500,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/page-29.png",
+      "bytes": 307031,
+      "mtime_ns": 1789730481398884400,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/qa_report/软件测试课程期末大报告.pdf",
+      "bytes": 582968,
+      "mtime_ns": 1789730461371734600,
+      "reason": "已有正式DOCX对应的渲染预览"
+    },
+    {
+      "path": "tmp/report_generation_stderr.log",
+      "bytes": 0,
+      "mtime_ns": 1789730350933382100,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/report_generation_stdout.log",
+      "bytes": 1210,
+      "mtime_ns": 1789730359120923100,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/staging/_diag/report.pending.docx",
+      "bytes": 34530,
+      "mtime_ns": 1788834564836132000,
+      "reason": "过期未发布排版草稿"
+    },
+    {
+      "path": "tmp/staging/report-1000090c9b3d4b12ae31e81f4917b889/软件测试课程期末大报告.pending.docx",
+      "bytes": 35277,
+      "mtime_ns": 1789699891376428500,
+      "reason": "过期未发布排版草稿"
+    },
+    {
+      "path": "tmp/staging/report-abe1dcb08ffc4f868fa142d239e89dcb/软件测试课程期末大报告.pending.docx",
+      "bytes": 35277,
+      "mtime_ns": 1789378690945592500,
+      "reason": "过期未发布排版草稿"
+    },
+    {
+      "path": "tmp/staging/report-b391f6f06932425a8dfd9173c80926c8/软件测试课程期末大报告.pending.docx",
+      "bytes": 35277,
+      "mtime_ns": 1789699525588944200,
+      "reason": "过期未发布排版草稿"
+    },
+    {
+      "path": "tmp/staging/report-f64b1fc1e8db4e3fbd3322a31cd41ecd/C语言学习与实践总结.pending.docx",
+      "bytes": 34537,
+      "mtime_ns": 1788838070707422300,
+      "reason": "过期未发布排版草稿"
+    },
+    {
+      "path": "tmp/t2_20260908_02.stderr.log",
+      "bytes": 2128,
+      "mtime_ns": 1788838448232094500,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/t2_20260908_02.stdout.log",
+      "bytes": 743,
+      "mtime_ns": 1788838448210588800,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_com_probe.stderr.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727481799678900,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_com_probe.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727481798705500,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_diag.stderr.log",
+      "bytes": 0,
+      "mtime_ns": 1788838500889556500,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_diag.stdout.log",
+      "bytes": 18,
+      "mtime_ns": 1788838501147750300,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789727657497237500,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727611131073200,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_addin_fix.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789727990818877700,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_addin_fix.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727924591245900,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_full_repair.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789729194487736900,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_full_repair.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789729127909475900,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_normal_restore.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789729435732074100,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_normal_restore.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789729369337475900,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_userstate_fix.stderr.txt",
+      "bytes": 1111,
+      "mtime_ns": 1789728082231313600,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_after_userstate_fix.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789728059132640300,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_ascii_scratch.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789728270694942100,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_ascii_scratch.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789728204335818800,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_open_existing.stderr.txt",
+      "bytes": 1857,
+      "mtime_ns": 1789728148571528200,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_open_existing.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789728147261741300,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_regserver.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789727787520052800,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_regserver.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727721471256800,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_visible.stderr.txt",
+      "bytes": 535,
+      "mtime_ns": 1789729298717543400,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_preflight_visible.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789729232128094900,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_probe_refresh.stderr.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727353980451800,
+      "reason": "过期诊断日志"
+    },
+    {
+      "path": "tmp/word_probe_refresh.stdout.txt",
+      "bytes": 0,
+      "mtime_ns": 1789727353979428200,
+      "reason": "过期诊断日志"
+    }
+  ],
+  "skipped": [],
+  "freed_bytes": 33610150
+}

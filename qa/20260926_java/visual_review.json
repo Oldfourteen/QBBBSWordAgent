@@ -1,0 +1,36 @@
+{
+  "document_sha256": "26276C03D94D771E10D8A71F00C2A98CA1B11405EC4673FF4B9F22EE14D77C8B",
+  "body_pages": 13,
+  "total_pages": 17,
+  "inspected_physical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "renderer": "Microsoft Word PDF export and Poppler PNG rasterization",
+  "reason_for_renderer": "Bundled Windows runtime has no LibreOffice; render_docx.py reported missing soffice.exe",
+  "body_review": "All body pages legible, no clipping or overlap; footer numbering 1 through 13",
+  "template_notes": [
+    "First three pages retain original sample fields and placeholder text",
+    "Cover title wraps as constrained by the fixed template"
+  ],
+  "content_notes": [
+    "No code blocks",
+    "All application test cases are planned and marked pending verification"
+  ],
+  "workflow_status": "GATE3_WAITING_APPROVAL"
+}

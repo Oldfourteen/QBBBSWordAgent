@@ -1,0 +1,111 @@
+{
+    "mode":  "recycle-bin",
+    "created_at":  "2026-09-30T08:52:35.3093323-04:00",
+    "files":  [
+                  {
+                      "path":  "tmp/_analyze.py",
+                      "sha256":  "65D903E2E5435B5D81A03D608A99FF8B4D99AEC352BC01B646381714C56B512B",
+                      "bytes":  1066
+                  },
+                  {
+                      "path":  "tmp/_calibrate.py",
+                      "sha256":  "508981DB5764B18DFAA9F46BB57E9C335A719476B8E924A9F47F160F9C225C27",
+                      "bytes":  2418
+                  },
+                  {
+                      "path":  "tmp/_inspect_template.py",
+                      "sha256":  "429B572108EAE4CF379D1077DCF99182B918EE1CD8FAC41344922067DB17D4DE",
+                      "bytes":  681
+                  },
+                  {
+                      "path":  "tmp/_measure_frag.py",
+                      "sha256":  "040B6019A2DE4BAE27E562916793E34E3B2264EF282A9A46807F4A40F21535E7",
+                      "bytes":  629
+                  },
+                  {
+                      "path":  "tmp/_per_section.py",
+                      "sha256":  "EA7B1B627FFA134652B27ACCA3D208373D88ABF5A75EE87A27F15E395918209C",
+                      "bytes":  513
+                  },
+                  {
+                      "path":  "tmp/_validate_report.py",
+                      "sha256":  "CE2986B261DCD6EECCA48C8E4618ABDE21F77D1763E7981375D98769C5126AA9",
+                      "bytes":  1228
+                  },
+                  {
+                      "path":  "tmp/add_final_reflection_page.py",
+                      "sha256":  "AE4CBDA1FDBD13D8E385100385E6B124E8FAE1B62B128F0E1658F9D89873B53B",
+                      "bytes":  2763
+                  },
+                  {
+                      "path":  "tmp/add_report_page_allocation.py",
+                      "sha256":  "87286EE2F16F13D7D3F49A9E1F37B05EB1EB155CCA852925349B5F76E665CD70",
+                      "bytes":  3418
+                  },
+                  {
+                      "path":  "tmp/expand_report_to_target.py",
+                      "sha256":  "F86C926CE4DCF3B07C6AC61B9D89FA2B1DA4EE57D701345FE93BD95EEDCFAAC3",
+                      "bytes":  6388
+                  },
+                  {
+                      "path":  "tmp/qa-20260930_02-inspect.py",
+                      "sha256":  "24AA46381495FE7CA9CB9D682D1D1D55330DA3C381602C1FC9FC39967E1D60F4",
+                      "bytes":  226
+                  },
+                  {
+                      "path":  "tmp/qa-20260930_02-toc.py",
+                      "sha256":  "39B19CDDB6D35CA8013BCD03A612F915503DACA8F9FEB9CE5D768ED4C03A2323",
+                      "bytes":  277
+                  },
+                  {
+                      "path":  "qa/_inspect.py",
+                      "sha256":  "B997354C6EF69CB7E4BA09170BC7AA94618AF79C82A52709C0451397AAA52305",
+                      "bytes":  1092
+                  },
+                  {
+                      "path":  "qa/_measure_html_pages.py",
+                      "sha256":  "64BA435308F6E508F5CAA9C00E62D05F61C83F31603D2ACA4EEB23D2B6A36F2B",
+                      "bytes":  3799
+                  },
+                  {
+                      "path":  "qa/assemble_report.py",
+                      "sha256":  "3706402254D4127ACFF25E5CB22A75D01FC5065A40AAA207F2576DB0084E5C18",
+                      "bytes":  3215
+                  },
+                  {
+                      "path":  "qa/build_final.py",
+                      "sha256":  "48D3ADC7184B7D0AF6C841775C28BD4DD036A9008E739BDFED88C57EEC465D33",
+                      "bytes":  3102
+                  },
+                  {
+                      "path":  "qa/generate_html_report.py",
+                      "sha256":  "B44C98277C2E41598485587AD00B8659F96D481F8981F088DAB0A9DB3C71D5FA",
+                      "bytes":  19499
+                  },
+                  {
+                      "path":  "qa/generate_vue_report.py",
+                      "sha256":  "22FBFE1B5ECF5BDE78BC9D992C374E3A50170413E5FAE37F6727DC7B0AA3142C",
+                      "bytes":  21726
+                  }
+              ],
+    "status":  "completed",
+    "removed":  [
+                    "tmp/_analyze.py",
+                    "tmp/_calibrate.py",
+                    "tmp/_inspect_template.py",
+                    "tmp/_measure_frag.py",
+                    "tmp/_per_section.py",
+                    "tmp/_validate_report.py",
+                    "tmp/add_final_reflection_page.py",
+                    "tmp/add_report_page_allocation.py",
+                    "tmp/expand_report_to_target.py",
+                    "tmp/qa-20260930_02-inspect.py",
+                    "tmp/qa-20260930_02-toc.py",
+                    "qa/_inspect.py",
+                    "qa/_measure_html_pages.py",
+                    "qa/assemble_report.py",
+                    "qa/build_final.py",
+                    "qa/generate_html_report.py",
+                    "qa/generate_vue_report.py"
+                ]
+}
