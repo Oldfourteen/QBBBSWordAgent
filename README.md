@@ -4,10 +4,11 @@
 
 <div align="center">
     <img title="QBBBSWordAgent" src="./ui/icon.png" width=200>
-
-    ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?logo=powershell&logoColor=white)
-    ![Agent](https://img.shields.io/badge/Agent-QBWordAgent-2F81F7)
-    [![License](https://img.shields.io/badge/License-MIT-32CD32)](./LICENSE)
+---
+    
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?logo=powershell&logoColor=white)
+![Agent](https://img.shields.io/badge/Agent-QBWordAgent-2F81F7)
+[![License](https://img.shields.io/badge/License-MIT-32CD32)](./LICENSE)
 
 </div>
 
